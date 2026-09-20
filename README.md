@@ -1,26 +1,16 @@
 # GripSync
 
-<p align="center">
-  <img src="https://intellectual-peach-o5okbiyz.edgeone.dev" alt="GripSync Logo" width="700">
-</p>
-
-<p align="center">
-  <strong>Lock In Sync Up</strong>
-</p>
-
-<p align="center">
-  Smart sports-grip technology for data-driven training and performance analysis.
-</p>
-
----
-
-## Overview
+> **Turn Every Grip Into Data**
 
 GripSync is a smart sports-grip technology concept designed to capture and visualize grip-pressure patterns and training data directly from sports equipment such as cricket bats, tennis/badminton rackets, hockey sticks, and baseball bats.
+
+## Overview
 
 Instead of requiring athletes to wear body sensors or smart vests, GripSync places sensing technology directly into the equipment grip.
 
 The proposed system uses flexible pressure sensors and a compact electronics module to measure grip pressure and impact-related data and transmit it to a companion application.
+
+The goal is to help athletes and coaches understand grip technique, identify performance patterns, and receive data-driven coaching feedback.
 
 ---
 
@@ -44,7 +34,7 @@ GripSync addresses this gap by capturing data at the **hand-to-equipment connect
 
 ## The Solution
 
-GripSync is designed around a smart grip and sensor system containing:
+GripSync is designed around a smart grip/sensor system containing:
 
 - Thin, sweat-resistant grip material
 - Flexible piezoelectric pressure sensors
@@ -155,9 +145,114 @@ The Arduino prototype:
 
 ---
 
+## Business Model
+
+The proposed affordable production model targets an estimated manufacturing cost of approximately **₹230–₹350 per unit**.
+
+The proposed target retail price is approximately **₹899 per unit**.
+
+> These are project estimates and should be validated with real manufacturing quotations before commercial production.
+
+### Target Customers
+
+- Student-athletes
+- Sports academy players
+- Amateur athletes
+- School athletic departments
+- Sports coaches
+- Parents interested in sports training technology
+
+---
+
+## Business Model Canvas
+
+### Value Proposition
+
+- Affordable sports analytics
+- Cross-sport smart grip technology
+- Real-time grip-pressure measurements
+- Data-driven coaching feedback
+- Compact equipment-integrated design
+
+### Customer Segments
+
+- Youth sports academy players
+- Student-athletes
+- Parents
+- Local coaches
+- Schools and sports academies
+
+### Channels
+
+- Direct-to-consumer website
+- Online marketplaces
+- Sports stores
+- Sports academies
+- School partnerships
+
+### Customer Relationships
+
+- Companion application
+- Progress tracking
+- Training analytics
+- Performance reports
+- Regular software updates
+
+### Key Activities
+
+- Hardware development
+- Software development
+- Sensor-data processing
+- Manufacturing quality assurance
+- Sports academy outreach
+
+### Key Resources
+
+- Sensor technology
+- Hardware designs
+- Software platform
+- Data-processing algorithms
+- Manufacturing partners
+
+### Key Partners
+
+- Sports academies
+- Schools
+- Sports-equipment manufacturers
+- Electronics manufacturers
+- Tournament organizers
+
+### Cost Structure
+
+- Electronics
+- Sensors
+- PCB manufacturing
+- ABS enclosure
+- Assembly
+- Packaging
+- Software infrastructure
+
+### Revenue Streams
+
+- Hardware sales
+- Optional premium application features
+- Academy-focused features
+- Multi-player analytics
+
+---
+
+## 3D Prototype
+
+A 3D prototype of the GripSync concept was created using Tripo3D.
+
+**3D Model:**  
+https://studio.tripo3d.ai/3d-model/accb95ed-9b1e-497e-9b9a-8d0bbac27f05?invite_code=VPNG37
+
+---
+
 ## Software Architecture
 
-GripSync is designed around two primary dashboard experiences.
+The proposed application contains two primary experiences:
 
 ### Player Dashboard
 
