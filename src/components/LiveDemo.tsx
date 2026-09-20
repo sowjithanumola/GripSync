@@ -230,32 +230,30 @@ export const LiveDemo: React.FC = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
-              className="aspect-video w-full bg-[#171B1F] border border-white/5 rounded-sm flex flex-col items-center justify-center relative overflow-hidden group"
+              className="aspect-video w-full bg-[#171B1F] border border-white/5 rounded-sm relative overflow-hidden group shadow-2xl"
             >
-              <div className="absolute inset-0 opacity-20 pointer-events-none">
-                <div className="absolute inset-0 bg-[radial-gradient(#C6FF00_1px,transparent_1px)] [background-size:20px_20px]" />
-              </div>
-              
-              <div className="relative z-10 text-center space-y-6 max-w-md px-6">
-                <div className="w-20 h-20 bg-[#C6FF00]/10 rounded-full flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform">
-                  <Play className="w-8 h-8 text-[#C6FF00] fill-[#C6FF00]" />
-                </div>
-                <h3 className="text-2xl font-bold text-white uppercase tracking-tight">Prototype Action Video</h3>
-                <p className="text-[#9AA4AC] text-sm leading-relaxed uppercase">
-                  Video demonstration will be available here shortly. <br />
-                  The drive link is being processed for integration.
-                </p>
-                <div className="pt-8">
-                  <div className="inline-block px-4 py-2 border border-[#C6FF00]/30 text-[10px] font-bold text-[#C6FF00] tracking-[0.3em] uppercase">
-                    Awaiting Media Link
-                  </div>
+              <video 
+                src="https://semantic-indigo-fs15pka6.edgeone.dev/"
+                className="w-full h-full object-cover"
+                controls
+                autoPlay
+                muted
+                playsInline
+              >
+                Your browser does not support the video tag.
+              </video>
+
+              <div className="absolute top-4 left-4 z-10">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#0B0D0F]/80 backdrop-blur-md border border-white/10 rounded-full">
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#C6FF00] animate-pulse" />
+                  <span className="text-[8px] font-bold tracking-[0.2em] text-white uppercase">GripSync System Demo</span>
                 </div>
               </div>
 
-              <div className="absolute top-0 left-0 w-20 h-20 border-t border-l border-[#C6FF00]/30" />
-              <div className="absolute top-0 right-0 w-20 h-20 border-t border-r border-[#C6FF00]/30" />
-              <div className="absolute bottom-0 left-0 w-20 h-20 border-b border-l border-[#C6FF00]/30" />
-              <div className="absolute bottom-0 right-0 w-20 h-20 border-b border-r border-[#C6FF00]/30" />
+              <div className="absolute top-0 left-0 w-20 h-20 border-t border-l border-[#C6FF00]/30 pointer-events-none" />
+              <div className="absolute top-0 right-0 w-20 h-20 border-t border-r border-[#C6FF00]/30 pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-20 h-20 border-b border-l border-[#C6FF00]/30 pointer-events-none" />
+              <div className="absolute bottom-0 right-0 w-20 h-20 border-b border-r border-[#C6FF00]/30 pointer-events-none" />
             </motion.div>
           )}
         </AnimatePresence>
