@@ -31,8 +31,13 @@ import { cn } from './lib/utils';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0B0D0F] text-[#F5F7F8] selection:bg-[#00E5FF] selection:text-[#0B0D0F]">
+    <div className="min-h-screen bg-[#0B0D0F] text-[#F5F7F8] selection:bg-[#00E5FF] selection:text-[#0B0D0F] relative">
       <Navbar />
+      
+      {/* Global Background Logo Pattern */}
+      <div className="fixed inset-0 opacity-[0.02] pointer-events-none -z-10 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('https://intellectual-peach-o5okbiyz.edgeone.dev/file.png')] bg-[length:120px_auto] bg-repeat opacity-50 rotate-12 scale-110" />
+      </div>
 
       {/* HERO SECTION */}
       <section id="home" className="relative min-h-screen pt-32 pb-20 overflow-hidden flex flex-col justify-center">
@@ -43,13 +48,7 @@ export default function App() {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            <div className="flex flex-col gap-8">
-              <img 
-                src="https://intellectual-peach-o5okbiyz.edgeone.dev/file.png" 
-                alt="GripSync Logo" 
-                className="w-full max-w-[220px] h-auto object-contain"
-                referrerPolicy="no-referrer"
-              />
+            <div className="flex flex-col gap-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#171B1F] border border-white/5 rounded-full self-start">
                 <span className="text-[10px] font-bold tracking-[0.3em] text-[#C6FF00] uppercase">Smart Sports Technology</span>
               </div>
@@ -237,8 +236,8 @@ export default function App() {
                 </svg>
               </div>
             </div>
-            <div className="absolute top-0 right-0 p-8 opacity-5">
-              <Activity className="w-64 h-64 text-[#C6FF00]" />
+            <div className="absolute inset-0 opacity-[0.03] pointer-events-none overflow-hidden">
+              <div className="absolute inset-0 bg-[url('https://intellectual-peach-o5okbiyz.edgeone.dev/file.png')] bg-[length:100px_auto] bg-repeat rotate-12 scale-150" />
             </div>
           </div>
         </div>
@@ -520,7 +519,7 @@ export default function App() {
                 <img 
                   src="https://intellectual-peach-o5okbiyz.edgeone.dev/file.png" 
                   alt="GripSync Logo" 
-                  className="h-10 w-auto object-contain"
+                  className="h-8 w-auto object-contain"
                   referrerPolicy="no-referrer"
                 />
                 <div className="text-[8px] font-bold tracking-[0.4em] text-[#C6FF00] uppercase">Smart Sports Technology</div>

@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
           <img 
             src="https://intellectual-peach-o5okbiyz.edgeone.dev/file.png" 
             alt="GripSync Logo" 
-            className="h-8 md:h-10 w-auto object-contain transition-transform group-hover:scale-105"
+            className="h-10 md:h-14 w-auto object-contain transition-transform group-hover:scale-105"
             referrerPolicy="no-referrer"
           />
         </a>
