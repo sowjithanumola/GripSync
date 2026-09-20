@@ -1,0 +1,6 @@
+{
+  "name": "GripSync",
+  "description": "GripSync is a smart sports-grip technology concept designed to visualize grip-pressure patterns and training data across grip-based sports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
