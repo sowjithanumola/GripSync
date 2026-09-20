@@ -1,7 +1,7 @@
 # GripSync
 
 <p align="center">
-  <img src="https://intellectual-peach-o5okbiyz.edgeone.dev/" alt="GripSync Logo" width="700">
+  <img src="https://intellectual-peach-o5okbiyz.edgeone.dev" alt="GripSync Logo" width="700">
 </p>
 
 <p align="center">
